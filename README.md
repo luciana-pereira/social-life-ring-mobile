@@ -33,7 +33,7 @@ O projeto Social Life Ring é uma rede social desenvolvida em Kotlin para promov
 Utilizamos a ferramenta _Project_ do GitHub para planejar ideias e organizar tarefas, priorizando os itens necessários para o desenvolvimento e distribuindo as tarefas entre a equipe.
 
 ## 3. Protótipo
-O projeto foi desenvolvido com base em um protótipo criado no Figma. Para acessar o protótipo e mais informações, clique [AQUI](https://www.figma.com/).
+O projeto foi desenvolvido com base em um protótipo criado no Figma. Para acessar o protótipo e mais informações, clique [AQUI](https://www.figma.com/file/JIX3y4sFukQrZaS87hWb1y/Pitch--Green-Connect?type=design&node-id=857-753&mode=design&t=LWmzW6jG1cLLWeej-0).
 
 ## 4. Tecnologias Utilizadas
 - Kotlin
