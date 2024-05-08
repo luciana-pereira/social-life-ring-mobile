@@ -32,9 +32,27 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_login)
 
         initializeViews()
+        setupLoginButton()
     }
 
     private fun initializeViews() {
-        //emailLogin = findViewById(R.id)
+        emailLogin = findViewById(R.id.emailLogin)
+        passwordLogin = findViewById(R.id.passwordLogin)
+        buttonLogin = findViewById(R.id.buttonLogin)
+        linkRegister = findViewById(R.id.linkRegister)
+        buttonIncrease = findViewById(R.id.buttonIncreaseTextSize)
+        buttonDecrease = findViewById(R.id.buttonDecreaseTextSize)
+    }
+
+    private fun setupLoginButton() {
+        buttonLogin.setOnClickListener {
+            val email = emailLogin.text.toString()
+            val password = passwordLogin.text.toString()
+            loginUser(email, password)
+        }
+    }
+
+    private fun loginUser(email: String, password: String) {
+        //criar autenticação de dois fatores no bakend
     }
 }
