@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.theme.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="27dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/buttonIncreaseTextSize"
+                    style="@style/RoundedButton"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="@string/button_increase_text_size"
+                    android:text="@string/b"
+                    android:textColor="#212121"
+                    app:layout_constraintEnd_toStartOf="@+id/buttonDecreaseTextSize"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+                <Button
+                    android:id="@+id/buttonDecreaseTextSize"
+                    style="@style/RoundedButton"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:contentDescription="@string/button_decrease_text_size"
+                    android:text="@string/a"
+                    android:textColor="#212121"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_launcher_foreground"
+                    tools:ignore="ImageContrastCheck" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
