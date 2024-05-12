@@ -26,4 +26,6 @@
     <string name="login_button_description">Clique neste botão para fazer login com seu email e senha</string>
     <string name="register_link_description">Clique neste link para se cadastrar, caso ainda não possua conta no aplicativo</string>
     <string name="user_types_text">Selecione uma das opções abaixo, para realizar o cadastro.</string>
+    <string name="user_text">Preencha os campos abaixo, para concluir o cadastro.</string>
+
 </resources>
