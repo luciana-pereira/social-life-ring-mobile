@@ -54,7 +54,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_gravity="center"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:src="@drawable/person"
                     tools:ignore="ImageContrastCheck" />
                 <Button
                     android:id="@+id/buttonChooseImage"
